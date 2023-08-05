@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Web</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="mainContainer" class="inner_container dfc aic" >
+        <div id="center-items">
+            <h1 id="text">Weather Cities Project</h1>
+        </div>
+        <div id="inputBox"class="center-items dfr aic">
+            <div id="searchBar" class="dfr aic">
+                <img src="images/magnifyingglass.png" alt="">
+                <input id="search" type="text" placeholder="Search for a city or airport ">
+            </div>
+            <div><button id="btn">Add city</button></div>
+        </div>
+        <!--Cards div-->
+        <div id="cardBox"class="dfr aic">
+            <!--card -->
+            <div id="card" class="dfr aic jcsb">
+                <div id="tempBox"class="dfc jcsb">
+                    <div ><p id="tem">13°</p></div>
+                    <div id="WeatherInfo">
+                        <div id="humid">H:16 L:8</div>
+                        <div id="Location">Tokyo,Japan</div>
+                    </div>
+                </div>
+                <div class="dfc aic ">
+                    <div >
+                        <img id="WeatherImage" src="images/Tornado.png" alt="">
+                    </div>
+                    <div id="season">Showers</div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
